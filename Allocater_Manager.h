@@ -1,0 +1,16 @@
+//
+// Created by hp on 5/10/2026.
+//
+
+#ifndef SEGMENTATION_MEMORY_MANAGER_ALLOCATER_MANAGER_H
+#define SEGMENTATION_MEMORY_MANAGER_ALLOCATER_MANAGER_H
+
+
+class Allocater_Manager {
+private:
+
+public:
+};
+
+
+#endif //SEGMENTATION_MEMORY_MANAGER_ALLOCATER_MANAGER_H
