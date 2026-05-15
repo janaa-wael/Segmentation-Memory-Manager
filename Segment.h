@@ -11,9 +11,14 @@ class Segment {
 private:
     std::string name;
     int size;
-
+    int startAddress;
 public:
     Segment();
+    Segment(const std::string& name, int size);
+    std::string getName() const;
+    int getSize() const;
+    int getStartAddress() const;
+    void setStartAddress(int address);
 };
 
 

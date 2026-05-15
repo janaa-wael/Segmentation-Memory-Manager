@@ -1,0 +1,31 @@
+{
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "C/C++: gcc.exe build active file",
+            "command": "bash",
+            "args": [
+                "-c",
+                "gcc.exe -fdiagnostics-color=always -g \"${file}\" -o \"${fileDirname}/${fileBasenameNoExtension}.exe\""
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}",
+                "shell": {
+                    "executable": "bash.exe"
+                }
+            },
+            "env": {
+                "PATH": "C:/msys64/ucrt64/bin;${env:PATH}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build with gcc via bash"
+        }
+    ],
+    "version": "2.0.0"
+}

@@ -6,11 +6,13 @@
 #define SEGMENTATION_MEMORY_MANAGER_ALLOCATING_METHOD_H
 
 #include <iostream>
+
 class Allocating_Algorithm {
 private:
 
 public:
     virtual void allocate() = 0;
+    virtual ~Allocating_Algorithm() = default;
 };
 
 
